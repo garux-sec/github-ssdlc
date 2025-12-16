@@ -1,23 +1,34 @@
-# vue-ssdlc
+# GitHub SSDLC Guide (Vue)
 
-This template should help get you started developing with Vue 3 in Vite.
+Single-page guide สรุปขั้นตอน DevSecOps / SSDLC บน GitHub: checklist, tooling, GitHub Actions blueprint, policies, playbooks และเครดิตผู้จัดทำ
 
-## Recommended IDE Setup
+- Demo: https://garux-sec.github.io/github-ssdlc/
+- Tech: Vue 3 + Vite
+- Author: Phisit Pupiw
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Setup
 
-## Recommended Browser Setup
+```sh
+npm install
+```
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### Dev
 
-## Customize configuration
+```sh
+npm run dev
+```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Build
+
+```sh
+npm run build
+```
+
+### Lint
+
+```sh
+npm run lint
+```
 
 ## Project Setup
 
