@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">GARUX</RouterLink>
+        <RouterLink to="/">GARUXv2</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
