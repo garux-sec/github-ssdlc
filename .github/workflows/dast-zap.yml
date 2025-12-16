@@ -5,6 +5,10 @@ on:
     workflows: ["Deploy Vue to GitHub Pages"]
     types: [completed]
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   zap_scan:
     runs-on: ubuntu-latest
