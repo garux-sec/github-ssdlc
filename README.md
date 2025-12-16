@@ -1,6 +1,6 @@
 # GitHub SSDLC Guide (Vue)
 
-Single-page guide สรุปขั้นตอน DevSecOps / SSDLC บน GitHub: checklist, tooling, GitHub Actions blueprint, policies, playbooks และเครดิตผู้จัดทำ
+Single-page guide สรุปขั้นตอน DevSecOps / SSDLC บน GitHub: checklist, tooling, GitHub Actions blueprint, policies, playbooks
 
 - Demo: https://garux-sec.github.io/github-ssdlc/
 - Tech: Vue 3 + Vite
