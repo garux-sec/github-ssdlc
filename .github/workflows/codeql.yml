@@ -1,0 +1,39 @@
+name: CodeQL SAST
+
+on:
+  push:               # 🔁 สแกนทุกครั้งที่ push
+    branches: [ "**" ]
+  pull_request:       # 🔁 สแกนทุก PR
+    branches: [ "main" ]
+  schedule:           # ⏱ สแกนตามรอบ (เสริม SSDLC)
+    - cron: '0 2 * * 1'   # ทุกวันจันทร์ 02:00 UTC
+
+jobs:
+  analyze:
+    name: Analyze (CodeQL)
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'javascript' ]   # Vue / Vite = JavaScript
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
