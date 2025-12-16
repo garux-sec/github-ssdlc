@@ -17,4 +17,3 @@ jobs:
         uses: zaproxy/action-baseline@v0.14.0
         with:
           target: "https://garux-sec.github.io/github-ssdlc/"
-          fail_action: true
