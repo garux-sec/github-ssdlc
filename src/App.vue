@@ -5,6 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 // ❌ TEST SECRET (DO NOT USE REAL KEY)
 const AWS_ACCESS_KEY_ID = "AKIA1234567890ABCDE";
 const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+const TOKEN = "ghp_1234567890abcdefghijklmnopqrstuvwxyz1234";
 
 
 </script>
@@ -18,7 +19,7 @@ const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">GARUXv2</RouterLink>
+        <RouterLink to="/">GARUXv3</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
