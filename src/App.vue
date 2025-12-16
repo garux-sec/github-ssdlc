@@ -1,7 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+// ❌ TEST SECRET (DO NOT USE REAL KEY)
+const AWS_ACCESS_KEY_ID = "AKIA1234567890ABCDE";
+const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+
+
 </script>
+
 
 <template>
   <header>
